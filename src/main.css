@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.gallery__items {
+  margin: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.gallery-item {
+  text-align: center;
+  background-color: white;
+}
+.gallery-item__image {
+  width: 100%;
+  max-width: 330px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.gallery-item__video {
+  width: 100%;
+  max-width: 330px;
+  height: 250px;
+}
+.gallery-item__title {
+  padding: 20px, 0;
+}/*# sourceMappingURL=main.css.map */
